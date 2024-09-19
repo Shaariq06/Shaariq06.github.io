@@ -1,0 +1,24 @@
+h1,
+h2 {
+  color: #1c61fe;
+}
+
+a {
+  color: #1c61fe;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 7px;
+}
+
+.myParagraph {
+  background-color: #1c61fe;
+  color: white;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: gray;
+  padding: 15px 17px;
+}
+
+* {
+  padding: 12px;
+}
