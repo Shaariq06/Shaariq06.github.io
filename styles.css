@@ -13,9 +13,32 @@ body {
   padding: 20px;
 }
 
-header {
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   background-color: #1c61fe;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+header {
   text-align: center;
   padding: 20px 0;
   border-radius: 10px;
@@ -37,7 +60,7 @@ h2 {
 .myParagraph {
   background-color: #1c61fe;
   color: white;
-  border: 2px solid gray;
+  border: 2px solid;
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
