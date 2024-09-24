@@ -1,4 +1,3 @@
-/* General styles */
 * {
   margin: 0;
   padding: 0;
@@ -56,7 +55,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-/* Paragraph styles */
 .myParagraph {
   background-color: #1c61fe;
   color: white;
@@ -67,7 +65,6 @@ h2 {
   line-height: 1.5;
 }
 
-/* Links and Buttons */
 a {
   color: #1c61fe;
   text-decoration: none;
@@ -88,7 +85,6 @@ a {
   margin: 20px auto;
 }
 
-/* Table Styles */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -113,7 +109,6 @@ caption {
   margin-bottom: 10px;
 }
 
-/* Media Query for responsiveness */
 @media (max-width: 768px) {
   body {
     padding: 10px;
